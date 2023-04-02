@@ -1,8 +1,8 @@
 # Ionicons
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/preemstudio/blade-icons-ionicons.svg?style=flat-square)](https://packagist.org/packages/preemstudio/blade-icons-ionicons)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-ionicons/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/preemstudio/blade-icons-ionicons/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-ionicons/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/preemstudio/blade-icons-ionicons/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-ionicons/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/PreemStudio/blade-icons-ionicons/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-ionicons/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/PreemStudio/blade-icons-ionicons/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/preemstudio/blade-icons-ionicons.svg?style=flat-square)](https://packagist.org/packages/preemstudio/blade-icons-ionicons)
 
 A package to easily make use of [Ionicons](https://ionic.io/ionicons) with Laravel Blade Icons.
@@ -15,15 +15,12 @@ You can install the package via composer:
 composer require preemstudio/blade-icons-ionicons
 ```
 
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag=blade-icons-ionicons-config
-```
-
 ## Usage
 
-This package utilizes Blade Icons under the hood. For additional functionality, please refer to the [Blade Icons README](https://github.com/PreemStudio/blade-icons). The prefix for all icons in this package is `ionicons`.
+> **Note**
+> Please refer to the [Blade Icons](https://github.com/PreemStudio/blade-icons) documentation for more information on how to use this package.
+
+The prefix for all icon families in this package is `ionicons`. Please refer to the [resources/svg](/resources/svg) directory for a list of available styles.
 
 ## Testing
 
