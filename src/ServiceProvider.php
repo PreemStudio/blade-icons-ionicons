@@ -12,6 +12,6 @@ final class ServiceProvider extends AbstractServiceProvider
 {
     public function packageRegistered(): void
     {
-        IconFamilyRegistry::push(IconFamily::fromDirectory('ionicons', __DIR__ . '/../resources/svg'));
+        IconFamilyRegistry::push(IconFamily::fromDirectory('ionicons', __DIR__.'/../resources/svg'));
     }
 }
